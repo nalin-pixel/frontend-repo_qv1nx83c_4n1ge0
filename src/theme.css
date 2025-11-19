@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #5B7FFF;
+    --color-secondary: #7C4DFF;
+    --color-accent: #00E5A8;
+    --color-bg: #F7F9FC;
+    --color-ink: #1A1C1E;
+    --color-muted: #5F6368;
+  }
+}
+
+@layer utilities {
+  .bg-bg { background-color: var(--color-bg); }
+  .text-ink { color: var(--color-ink); }
+  .text-muted-700 { color: var(--color-muted); }
+  .shadow-card { box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06); }
+  .shadow-card-lg { box-shadow: 0 20px 40px rgba(16, 24, 40, 0.12); }
+  .shadow-glow { box-shadow: 0 10px 30px rgba(91,127,255,0.35); }
+  .bg-gradient-primary { background-image: linear-gradient(135deg, #5B7FFF, #7C4DFF); }
+  .bg-gradient-accent { background-image: linear-gradient(135deg, #00E5A8, #5BFFCC); }
+  .border-glass { border-color: rgba(255,255,255,0.6); }
+}

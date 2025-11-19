@@ -1,0 +1,12 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 268 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.23.216:3000/
+10:41:48 AM [vite] Pre-transform error: [postcss] /home/workspace/src/index.css:1:1: The `bg-bg` class does not exist. If `bg-bg` is a custom class, make sure it is defined within a `@layer` directive.
+10:41:49 AM [vite] ✨ new dependencies optimized: lucide-react
+10:41:49 AM [vite] ✨ optimized dependencies changed. reloading
